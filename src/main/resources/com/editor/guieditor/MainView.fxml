@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+
+<HBox prefHeight="528.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.editor.guieditor.MainController">
+   <AnchorPane fx:id="MainAnchorPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #a6a7ba;" HBox.hgrow="ALWAYS" />
+   <AnchorPane prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #5b5d7d;">
+      <VBox alignment="BASELINE_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <ToggleButton fx:id="EllipseBtn" mnemonicParsing="false" onAction="#EllipseBtnClick" text="Ellipse" />
+         <ToggleButton fx:id="TextBtn" mnemonicParsing="false" onAction="#TextBtnClick" text="Text" />
+         <ToggleButton fx:id="RectangleBtn" mnemonicParsing="false" onAction="#RectangleBtnClick" text="Rectangle" />
+         <ToggleButton fx:id="GroupBtn" mnemonicParsing="false" onAction="#GroupBtnClick" text="Group" />
+         <Button fx:id="PictureBrn" mnemonicParsing="false" onAction="#PictureBtnClick" text="Picture" />
+         <Button fx:id="FontBtn" mnemonicParsing="false" onAction="#FontBtnClick" text="Font">
+            <VBox.margin>
+               <Insets top="10.0" />
+            </VBox.margin>
+         </Button>
+         <ColorPicker fx:id="ColorPicker" prefHeight="16.0" prefWidth="58.0">
+            <VBox.margin>
+               <Insets top="10.0" />
+            </VBox.margin>
+            <value>
+               <Color red="0.3935714364051819" green="0.1444000005722046" blue="0.7599999904632568" />
+            </value>
+         </ColorPicker>
+      </VBox>
+   </AnchorPane>
+</HBox>
