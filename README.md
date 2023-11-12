@@ -5,3 +5,13 @@
 * Группировка и перемещение объектов;
 * Нажатие ПКМ по объекту удаляет его.
 
+# Пример работы
+
+## Интерфейс
+![image](https://github.com/Lidoncor/GuiEditor/assets/87908043/bb144fde-7be0-4487-a105-9827c0f56a06)
+
+## Графические объекты
+![image](https://github.com/Lidoncor/GuiEditor/assets/87908043/dc5b1183-ef09-4f1b-83fb-ee6156f65fdc)
+
+## Группировка объектов по зажатию ЛКМ
+![image](https://github.com/Lidoncor/GuiEditor/assets/87908043/735a01d2-f9e6-467c-a6e9-2b8c3492d50d)
